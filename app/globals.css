@@ -115,12 +115,14 @@
   * {
     @apply border-border outline-ring/50;
   }
-  html, body {
+  html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
   body {
+    margin: 0;
+    padding: 0;
     @apply bg-background text-foreground;
   }
 }

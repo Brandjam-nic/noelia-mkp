@@ -27,3 +27,20 @@ export type FooterProps = Record<string, never>
 
 // Instagram Section Types (if any additional props needed in future)
 export type InstagramSectionProps = Record<string, never>
+
+// Service Types for Client Favourites
+export interface Service {
+  id: string
+  title: string
+  blurb: string
+  features: [string, string, string]
+  duration: string
+  priceFrom: string
+  image: string
+  layout: 'feature' | 'standard'
+  alt: string
+}
+
+export interface ClientFavouritesProps {
+  services?: Service[]
+}

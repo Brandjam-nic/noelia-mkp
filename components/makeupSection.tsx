@@ -70,7 +70,7 @@ const MakeupSection: React.FC<MakeupSectionProps> = ({
               <div className="relative aspect-[4/5] overflow-hidden">
                 <Image
                   src={leftImageA}
-                  alt="Misty forested mountains at dawn"
+                  alt="Professional makeup artist at work - creating stunning bridal looks"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 50vw, (max-width: 1280px) 25vw, 320px"
@@ -81,7 +81,7 @@ const MakeupSection: React.FC<MakeupSectionProps> = ({
               <div className="relative aspect-[4/5] overflow-hidden">
                 <Image
                   src={leftImageB}
-                  alt="Close portrait of a woman in natural light"
+                  alt="Beautiful makeup transformation - natural glam makeup look"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 50vw, (max-width: 1280px) 25vw, 320px"
@@ -131,7 +131,7 @@ const MakeupSection: React.FC<MakeupSectionProps> = ({
               <div className="relative aspect-[3/4]">
                 <Image
                   src={productImage}
-                  alt="Professional makeup artistry showcase"
+                  alt="Luxury makeup products and professional makeup artistry showcase - Noelia MKP"
                   fill
                   className="object-contain drop-shadow-2xl"
                   sizes="(max-width: 768px) 100vw, (max-width: 1280px) 60vw, 800px"

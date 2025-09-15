@@ -1,34 +1,9 @@
 'use client'
 
-import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { HeroPair } from '@/types'
-
-
-const PAIRS: HeroPair[] = [
-  {
-    left:  { src: '/images/hero/heroOcean1.webp', alt: 'Ocean portrait' },
-    right: { src: '/images/hero/heroMkp1.webp',  alt: 'Makeup texture' },
-  },
-  {
-    left:  { src: '/images/hero/heroWater1.jpg', alt: 'Ocean portrait 2' },
-    right: { src: '/images/hero/heroMkp2.webp',  alt: 'Makeup texture 2' },
-  },
-  {
-    left:  { src: '/images/hero/heroFlower.jpg', alt: 'Flowers' },
-    right: { src: '/images/hero/flowerGirl1.webp',  alt: 'Makeup texture 2' },
-  },
-]
 
 const HeroSection = () => {
-  const [pair, setPair] = React.useState<HeroPair | null>(null)
-
-  React.useEffect(() => {
-    // Pick once on mount to avoid SSR mismatch
-    const random = PAIRS[Math.floor(Math.random() * PAIRS.length)]
-    setPair(random)
-  }, [])
 
   return (
     <section className="relative w-full h-screen overflow-hidden bg-black">
@@ -40,15 +15,13 @@ const HeroSection = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
-          {pair && (
-            <Image
-              src={pair.left.src}
-              alt={pair.left.alt}
-              fill
-              className="object-cover"
-              priority
-            />
-          )}
+          <Image
+            src="/images/hero/Girl3.png"
+            alt="Professional makeup artist Noelia working with client - bridal makeup"
+            fill
+            className="object-cover"
+            priority
+          />
           <div className="absolute inset-0 flex items-start justify-start pl-4 sm:pl-8 pt-4 overflow-hidden">
             <h1 className="text-white text-[2.5rem] sm:text-[4rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] font-medium tracking-wider whitespace-nowrap">
               NOELIA
@@ -63,15 +36,13 @@ const HeroSection = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
-          {pair && (
-            <Image
-              src={pair.right.src}
-              alt={pair.right.alt}
-              fill
-              className="object-cover"
-              priority
-            />
-          )}
+          <Image
+            src="/images/hero/heroMkp1.webp"
+            alt="Luxury makeup products and professional makeup tools"
+            fill
+            className="object-cover"
+            priority
+          />
           <div className="absolute inset-0 flex items-start justify-end pr-4 sm:pr-8 pt-4 overflow-hidden">
             <h1 className="text-white text-[2.5rem] sm:text-[4rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] font-medium tracking-wider whitespace-nowrap">
               MKP
