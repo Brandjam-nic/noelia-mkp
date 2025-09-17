@@ -8,9 +8,9 @@ import { MakeupSectionProps } from '@/types'
 const MakeupSection: React.FC<MakeupSectionProps> = ({
   headline = "Your skin, deeply understood",
   copy = "Noelia MKP is a professional makeup artistry service grounded in expertise and creativity, with proven techniques that enhance natural beauty and create resilient, camera-ready looks.",
-  leftImageA = "/images/girl1.jpg",
-  leftImageB = "/images/girl1.jpg",
-  productImage = "/images/girl1.jpg",
+  leftImageA = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80",
+  leftImageB = "/images/about/noelia.png",
+  productImage = "/images/hero/girl2.jpg",
   productImageBg
 }) => {
   const shouldReduceMotion = useReducedMotion()

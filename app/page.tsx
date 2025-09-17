@@ -13,9 +13,6 @@ export default function Home() {
       <Header />
       <main>
         <HeroSection />
-        <div id="about">
-          <AboutSection />
-        </div>
         <div id="services">
           <MakeupSection />
         </div>

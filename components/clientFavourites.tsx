@@ -149,9 +149,9 @@ const ClientFavourites: React.FC<ClientFavouritesProps> = ({
                   variants={fadeInUp}
                 >
                   <Link
-                    href={`/services#${service.id}`}
+                    href="/contact"
                     className="block h-full"
-                    aria-label={`View ${service.title} service`}
+                    aria-label={`Book ${service.title} service`}
                   >
                     <div className="relative h-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden">
                       {/* Service Image */}

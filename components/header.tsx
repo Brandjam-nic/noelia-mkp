@@ -27,7 +27,7 @@ const Header = () => {
             onClick={(e) => handleScroll(e, 'about')}
             className="text-white text-sm tracking-wider hover:opacity-70 transition-opacity cursor-pointer"
           >
-            ABOUT US
+            ABOUT
           </a>
           <a
             href="#services"
