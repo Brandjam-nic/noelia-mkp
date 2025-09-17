@@ -53,7 +53,7 @@ export default function VideoSection() {
               Beauty
             </h2>
             <h2 className="font-serif text-5xl font-light italic text-white opacity-50 transition-opacity duration-300 hover:opacity-100 cursor-pointer md:text-6xl lg:text-7xl leading-none" style={{ fontFamily: 'Georgia, serif' }}>
-              Elegance
+              Adaptive
             </h2>
           </motion.div>
         </div>
