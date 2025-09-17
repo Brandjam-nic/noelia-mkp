@@ -24,21 +24,6 @@ const DEFAULT_SERVICES: Service[] = [
     alt: 'Makeup artist perfecting a model for a studio photoshoot'
   },
   {
-    id: 'srv-drag',
-    title: 'Drag',
-    blurb: 'Full transformation—bold, sculpted, and stage-proof.',
-    features: [
-      'Brow block & sculpt',
-      'High-impact contour',
-      'Custom lashes'
-    ],
-    duration: '90–120 min',
-    priceFrom: 'From $250',
-    image: '/images/hero/girl2.jpg',
-    layout: 'feature',
-    alt: 'Vibrant drag makeup with dramatic contour and custom lashes'
-  },
-  {
     id: 'srv-film-tv',
     title: 'Film & Television',
     blurb: 'Camera-safe complexion with continuity in mind.',
