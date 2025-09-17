@@ -22,8 +22,8 @@ const HeroSection = () => {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 flex items-start justify-start pl-4 sm:pl-8 pt-4 overflow-hidden">
-            <h1 className="text-white text-[2.5rem] sm:text-[4rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] font-medium tracking-wider whitespace-nowrap">
+          <div className="absolute inset-0 flex items-start justify-start pl-4 sm:pl-8 pt-20 sm:pt-4 overflow-hidden">
+            <h1 className="text-white text-[2rem] sm:text-[4rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] font-medium tracking-wider whitespace-nowrap">
               NOELIA
             </h1>
           </div>
@@ -43,8 +43,8 @@ const HeroSection = () => {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 flex items-start justify-end pr-4 sm:pr-8 pt-4 overflow-hidden">
-            <h1 className="text-white text-[2.5rem] sm:text-[4rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] font-medium tracking-wider whitespace-nowrap">
+          <div className="absolute inset-0 flex items-start justify-end pr-4 sm:pr-8 pt-20 sm:pt-4 overflow-hidden">
+            <h1 className="text-white text-[2rem] sm:text-[4rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] font-medium tracking-wider whitespace-nowrap">
               MKP
             </h1>
           </div>
